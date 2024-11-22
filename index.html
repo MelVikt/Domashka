@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специфічність селекторів</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <p>Застосовується до тегів p, без додаткових умов, вага 1*</p>
+    </div>
+    <div>
+        <p class="class">Застосовується до класу class, вага 10*</p>
+    </div>
+    <div>
+        <p id="id">Застосовується до id, вага 100*</p>
+    </div>
+    <div>
+        <p data-attribute="value">Застосовується до тегів p з атрибутом value, вага 11*</p>
+    </div>
+    <div>
+        <div>
+            <p class="nested">Застосовується до тегів p з класом nested, вкладених у div, вага 12*</p>
+        </div>
+    </div>
+    <div>
+        <p class="child">Застосовується до дочірніх елементів p з класом child, вага 12*</p>
+    </div>
+    <div>
+        <p class="sequence">Застосовується до p з класом sequence, вкладених у div, вага 12*</p>
+    </div>
+    <div>
+        <p class="combinations">Застосовується до p з класом combinations, вкладених у div, вага 12*</p>
+    </div>
+    <div>
+        <p id="combinations-id">Застосовується до p з id, вкладених у div, вага 102*</p>
+    </div>
+    <div>
+        <p class="more-combination" data-attribute="value">Застосовується до p з класом more-combination і атрибутом value, вага 21*</p>
+    </div>
+</body>
+</html>
