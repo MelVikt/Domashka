@@ -1,0 +1,39 @@
+p {
+  background-color: red;
+}
+
+.class {
+  background-color: green;
+}
+
+#id {
+  background-color: blue;
+}
+
+p[data-attribute="value"] {
+  background-color: purple;
+}
+
+div p.nested {
+  background-color: orange;
+}
+
+div > p.child {
+  background-color: brown;
+}
+
+div p.sequence {
+  background-color: pink;
+}
+
+div p.combinations {
+  background-color: yellow;
+}
+
+div p#combinations-id {
+  background-color: cyan;
+}
+
+p.more-combination[data-attribute="value"] {
+  background-color: teal;
+}
