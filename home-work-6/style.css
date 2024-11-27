@@ -1,0 +1,80 @@
+.btable{
+  border-collapse: collapse;
+  width: 700px; 
+  height: 700px; 
+  border: 10px solid black;
+  border-width: 10px;
+}
+
+td{
+  border:10px solid black;
+}
+
+.firstf{
+width:20%  
+}
+
+.firstthird{
+ width:40%
+}
+.firstline {
+  background-color:yellow;
+  height: 80px;
+}
+
+.bigred{
+  background-color: red;
+  width: 220px;
+}
+
+.secondthird{
+  background-color: yellow;
+}
+
+.thirdsecond{
+  height: 150px;
+}
+
+.fourthline{
+  background-color: black;
+}
+
+.fourththird{
+  height: 12%;
+  width: 25%;
+}
+
+.absolute{
+  background-color: yellow;
+  width: 10%;
+}
+
+.fifthline{
+  background-color: blue;
+}
+
+.fifththird{
+height: 12%;
+width: 25%;
+}
+
+.notabsolute{
+  background-color: red;
+}
+
+.sixthline{
+  background-color: black;
+  height: 50px;
+}
+
+.lastright{
+  width: 8%;
+}
+
+.secondfirst{
+  height: 20%;
+}
+
+.longendline{
+  height:5%
+}
